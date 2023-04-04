@@ -1,20 +1,18 @@
 # Api-Controle-de-estoque
 
-![header](https://user-images.githubusercontent.com/90796699/229766587-b55fd640-7d47-4712-9f34-a6187532f23a.png)
+![header](https://user-images.githubusercontent.com/90796699/229766788-1b0a5861-7416-4a7d-8ed9-f1bcdfa3b8a6.png)
 
 > Status: Em desenvolvimento ⚠️
 
-### É uma aplicação planejada por mim, onde realizo o CRUD e operações bancárias.
+### É uma aplicação planejada por mim, onde gerencio um controle de estoque.
 
 ## Alguns campos no modelo principal são:
-
-+ nrInst 
-+ nrAgen
-+ cdCta
++ codigo 
 + nome
-+ email
-+ cpf
-+ saldo
++ descricao
++ categoria
++ valor
++ quantidade
 
 ## Technologies Used:
 ![header](https://user-images.githubusercontent.com/90796699/228732700-385f1245-70e2-4afa-8fcb-3838c43cc3d1.png)
@@ -35,15 +33,16 @@
 
 ## Desenvolvimento concluído.
 
-1) Cadastra registro.
-2) Edita registro cadastrado.
-3) Busca registro pelo ID.
-4) Efetua saque.
-5) Efetua deposito.
-6) Efetua transferência entre contas.
-7) Adicionado Validation.
+1) Cadastra produto.
+2) Edita produto.
+3) Exclui produto.
+4) Lista produtos cadastrados.
+5) Busca registro pelo codigo.
+6) Busca registro pela categoria.
+7) Efetua baixa de estoque.
+8) Efetua entrada de estoque.
 
 ## ## Esses recursos estão em desenvolvimento:
 
 - Em desenvolvimento ⚠️
-1) Lapidar código.
+1) Adicionar validation.
