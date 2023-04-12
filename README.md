@@ -41,8 +41,9 @@
 6) Busca registro pela categoria.
 7) Efetua baixa de estoque.
 8) Efetua entrada de estoque.
+9) Adicionado validation.
 
 ## ## Esses recursos estão em desenvolvimento:
 
 - Em desenvolvimento ⚠️
-1) Adicionar validation.
+1) Adicionar autenticação.
