@@ -85,7 +85,7 @@ public class produtoController {
 
 	// lista todos produtos
 	@GetMapping("listaProdutos")
-	@ApiOperation(value = "Lista todos produtos.", notes = "Lista todos produtos cadastrados..")
+	@ApiOperation(value = "Lista todos produtos.", notes = "Lista todos produtos cadastrados.")
 	public List<Produtos> listaTodosProdutos() {
 		return repository.findAll();
 	}
