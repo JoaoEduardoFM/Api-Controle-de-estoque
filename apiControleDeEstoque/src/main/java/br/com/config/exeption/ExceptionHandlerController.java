@@ -1,4 +1,4 @@
-package br.com.exception;
+package br.com.config.exeption;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,7 +18,7 @@ import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-import br.com.response.ResponseRest;
+import br.com.model.response.ResponseRest;
 
 @RestControllerAdvice
 public class ExceptionHandlerController {
