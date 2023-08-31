@@ -42,6 +42,7 @@
 7) Efetua baixa de estoque.
 8) Efetua entrada de estoque.
 9) Adicionado validation.
+10) Adicionado testes unitários
 
 ## ## Esses recursos estão em desenvolvimento:
 
