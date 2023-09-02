@@ -19,20 +19,24 @@ import springfox.documentation.annotations.ApiIgnore;
 @RestController
 @AllArgsConstructor
 @RequestMapping("produtos/controleEstoque")
-@Api(tags = { "Controle de estoque" })
+@Api(tags = { "Controle de estoque" }, description = " Controle de estoque." )
 public class EstoqueController {
 	
 	@Autowired
 	EstoqueService estoqueService;
 
 	@PatchMapping("baixaEstoque/{codigo}")
-	@ApiOperation(value = "Baixa estoque.", notes = "Da baixa a um produto baseado no id cadastrado.")
+	@ApiOperation(
+			value = "Baixa estoque.", 
+			notes = "Da baixa a um produto baseado no id cadastrado.")
 	public ResponseEntity<ResponseRest> baixaEstoque(Long codigo, Long quantidade, @ApiIgnore @Valid Produtos produto, @ApiIgnore ResponseRest response) {
 		return estoqueService.baixaEstoque(codigo, quantidade, produto, response);
 	}
 
 	@PatchMapping("entradaEstoque/{codigo}")
-	@ApiOperation(value = "Entrada estoque.", notes = "Da entrada a um produto baseado no id cadastrado.")
+	@ApiOperation(
+			value = "Entrada estoque.", 
+			notes = "Da entrada a um produto baseado no id cadastrado.")
 	public ResponseEntity<ResponseRest> adicionaEstoque(Long codigo, Long quantidade, @ApiIgnore @Valid Produtos produto, @ApiIgnore ResponseRest response) {
 		return estoqueService.adicionaEstoque(codigo, quantidade, produto, response);
 	}
