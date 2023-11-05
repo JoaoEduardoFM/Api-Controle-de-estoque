@@ -28,7 +28,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("API Controle de estoque.")
                 .description(
-                		  "Bem-vindo à nossa API de controle de estoque! Oferecemos uma API completa para controle de estoque, que ajuda a gerenciar seu estoque de forma fácil e intuitiva. \n "
+                		    "Bem-vindo à nossa API de controle de estoque! Oferecemos uma API completa para controle de estoque, que ajuda a gerenciar seu estoque de forma fácil e intuitiva. \n "
                 		  + "Com recursos como controle de entrada e saída, rastreamento em tempo real e alertas de estoque baixo, você pode economizar tempo e dinheiro, além de reduzir erros. \n"
                 		  + "Nossa solução é altamente personalizável, segura e confiável. Entre em contato conosco para saber mais.")
                 .version("1.0.0")
